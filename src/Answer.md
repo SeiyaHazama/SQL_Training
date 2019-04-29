@@ -101,9 +101,9 @@ __応用編 - 1日目__
 	UPDATE Population SET Area = 'KSH'
 		WHERE Pref = '沖縄県';
 	```
-<BR/>
-2. Areaテーブルから沖縄地方のレコードを削除
 
+2. Areaテーブルから沖縄地方のレコードを削除
+	
 	```
 	DELETE FROM Area
 		WHERE Area = 'OKN';
